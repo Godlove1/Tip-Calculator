@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>TIP calculator</title>
+</head>
+<body>
+	
+	<div class="header">
+<h1>SPLI<br>TTER</h1>
+	</div>
+<!--container wrapper-->
+	<div class="tip-wrapper">
+		<div class="sub">
+<!--container wrapper-->
+
+	<div class="bill-container">
+<p>Bill</p>
+<div class="input-bill">
+	<img src="images/icon-dollar.svg" alt="">
+	
+	<input type="text" name="mount" id="amount" placeholder="00.0">
+
+</div>
+
+<p>Select Tip %</p>
+<div class="tip-percent" id="tip-box">
+<div class="percent" id="fi">
+	<span id="five">5</span></div>
+<div class="percent"  value="0.10" id="ten"> 10 </div>
+<div class="percent"  value="0.15" id="fifteen"> 15 </div>
+<div class="percent"  value="0.25" id="twenty-five"> 25 </div>
+<div class="percent"  value="0.50" id="fifty"> 50</div>
+<div class="percent"  value="custom" id="cus">Custom </div>
+</div>
+
+<p>Number of people</p>
+<div class="input-pip">
+	<img src="images/icon-person.svg" alt="">
+	<input type="text" placeholder="0" id="people">
+</div>
+
+
+	</div>
+
+<div class="pay-container">
+	<!--container showing tip amount-->
+<div class="amt-per-head">
+<div class="info-per-head">
+	<p>Tip Amount</p>
+	<p>/person</p>
+</div>
+
+<div class="price-per-head">
+	<img src="images/icon-dollar.svg" alt="">
+	<p id="pay">00.0</p>
+</div>
+
+</div>
+
+<div class="amt-per-head">
+	<div class="info-per-head">
+		<p>Total</p>
+		<p>/person</p>
+	</div>
+
+	<div class="price-per-head">
+		<img src="images/icon-dollar.svg" alt="">
+		<p id="total-pay">00.0</p>
+	</div>
+
+</div>
+<!--/pay contianer-->
+<button id="reset">RESET</button>
+</div>
+
+
+<!--end of container wrapper-->
+	</div>
+	<div class="attribution">
+		<p>Challenge by <a href="www.frontendmentor.com">Frontend Mentor</a> Coded by <a href="akalegodlove.netlify.app">Akale Godlove</a>.</p>
+	</div>
+	</div>
+<!--end of container wrapper-->
+<script src="main.js"></script>
+</body>
+</html>
